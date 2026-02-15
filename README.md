@@ -4,7 +4,6 @@
 
 This project implements a Machine Learning-based Crime Analytics and Prediction System using regression techniques.  
 The primary objective is to analyze historical Indian IPC crime data and predict total cognizable crimes based on geographical and temporal inputs.
-
 The system processes structured state-wise and district-wise crime records to identify trends and generate predictive insights. A regression-based machine learning model was trained using encoded categorical features to simulate real-world crime forecasting scenarios.
 ---
 
