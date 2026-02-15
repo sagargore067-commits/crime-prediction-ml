@@ -1,92 +1,61 @@
-# 🚔 AI Crime Analytics & Prediction System Using Machine Learning
+# 🚔 AI Crime Analytics & Prediction System  
+### Machine Learning-Based Crime Forecasting Dashboard
+
+---
 
 ## 📌 Project Overview
 
-This project implements a Machine Learning-based Crime Analytics and Prediction System using regression techniques.  
-The primary objective is to analyze historical Indian IPC crime data and predict total cognizable crimes based on geographical and temporal inputs.
-The system processes structured state-wise and district-wise crime records to identify trends and generate predictive insights. A regression-based machine learning model was trained using encoded categorical features to simulate real-world crime forecasting scenarios.
----
+The **AI Crime Analytics & Prediction System** is a Machine Learning-based application designed to analyze historical Indian IPC crime data and generate predictive insights.
 
-## 🎥 Live Project Demonstration
+The system processes structured state-wise and district-wise crime records to:
 
-<video width="800" controls>
-  <source src="demo-video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+- Identify long-term crime trends  
+- Highlight high-crime regions  
+- Predict total cognizable IPC crimes  
+- Provide interactive visual analytics  
 
-### The demonstration includes:
+A regression-based machine learning model was trained using encoded categorical features to simulate real-world crime forecasting scenarios.
 
-- 📊 Interactive Streamlit dashboard  
-- 📈 Crime trend visualization  
-- 🏆 Top 10 crime states analysis  
-- 🤖 Machine learning model training  
-- 🔮 Real-time crime prediction  
-- 🏗️ System architecture explanation  
-
-
-
-### 🔹 Key Components
-
-- 📊 Crime Trend Analysis Dashboard  
-- 🔮 Crime Count Prediction using Random Forest Regression  
-
-### 🔹 Model Evaluation Metric
-
-- R² Score (Coefficient of Determination)
-
-The project demonstrates a complete end-to-end machine learning workflow including:
+This project demonstrates a complete end-to-end ML workflow including:
 
 - Data preprocessing  
 - Feature encoding  
 - Model training  
 - Model evaluation  
-- Data visualization  
-- Interactive deployment using Streamlit  
+- Interactive dashboard deployment  
+---
+
+## 🎬 Live Project Demonstration
+
+<p align="center">
+  <a href="https://youtu.be/tid0rBbhpek" target="_blank">
+    <img src="https://img.youtube.com/vi/tid0rBbhpek/maxresdefault.jpg" 
+         alt="AI Crime Analytics Dashboard Demo" 
+         width="800">
+  </a>
+</p>
+
+<p align="center">
+  ▶ <strong>Click the image above to watch the complete project demonstration.</strong>
+</p>
 
 ---
 
-## 🖥️ Streamlit Dashboard
+### 📌 The Demonstration Covers:
 
-The project includes an interactive Streamlit-based dashboard (`app/app.py`) that allows users to:
-
-- View Crime Trend Over Years  
-- Analyze Top 10 Crime States  
-- View Key Performance Metrics (Total Crimes, Average Crimes, Highest Crime State)  
-- Generate Real-Time Crime Predictions  
+- 📊 Interactive Streamlit-based crime analytics dashboard  
+- 📈 Crime trend visualization across years  
+- 🏆 Top 10 high-crime states analysis  
+- 🤖 Machine learning model training (Random Forest Regression)  
+- 🔮 Real-time crime prediction based on state, district & year  
+- 🏗️ System architecture and workflow explanation  
 
 ---
 
-## 🚀 How to Run the Project Locally
+### 🎥 Direct Video Link
 
-### 1️⃣ Clone the Repository
+👉 https://youtu.be/tid0rBbhpek
 
-```bash
-git clone https://github.com/sagargore067-commits/crime-prediction-ml.git
-```
-
-### 2️⃣ Navigate to Project Folder
-
-```bash
-cd crime-prediction-ml
-```
-
-### 3️⃣ Install Required Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Train the Model
-
-```bash
-python main.py
-```
-
-### 5️⃣ Run the Streamlit Application
-
-```bash
-python -m streamlit run app/app.py
-```
 
 ---
 
@@ -94,15 +63,15 @@ python -m streamlit run app/app.py
 
 Crime data is generated in large volumes across different states and districts in India.  
 
-Manual analysis of such large datasets is inefficient and does not provide predictive insights.  
+Manual analysis of such large datasets is inefficient and does not provide predictive insights.
 
 Law enforcement agencies and policymakers require:
 
-- Accurate trend analysis  
+- Trend analysis  
 - Identification of high-risk regions  
 - Predictive crime estimation  
 
-This project applies Machine Learning techniques to analyze historical crime data and generate predictive insights for improved decision-making.
+This project applies Machine Learning to analyze historical crime data and generate actionable predictive insights.
 
 ---
 
@@ -110,10 +79,10 @@ This project applies Machine Learning techniques to analyze historical crime dat
 
 The dataset contains structured IPC crime records with the following features:
 
-- States/UTs  
-- District  
-- Year  
-- Total Cognizable IPC Crimes (Target Variable)  
+- `States/UTs`
+- `District`
+- `Year`
+- `Total Cognizable IPC Crimes` (Target Variable)
 
 The dataset represents official state-wise and district-wise crime statistics.
 
@@ -134,18 +103,18 @@ The dataset represents official state-wise and district-wise crime statistics.
 
 ### Random Forest Regression
 
-An ensemble-based regression algorithm that:
+An ensemble-based regression model selected because it:
 
 - Handles non-linear relationships  
 - Performs well with encoded categorical variables  
-- Provides stable and reliable predictions  
-- Reduces overfitting compared to single decision trees  
+- Provides stable and accurate predictions  
+- Reduces overfitting compared to individual decision trees  
 
 ---
 
 ## 📈 Model Evaluation
 
-Evaluation Metric Used:
+Evaluation metric used:
 
 - **R² Score (Coefficient of Determination)**  
 
@@ -153,14 +122,17 @@ The R² score measures how effectively the model explains variance in the target
 
 ---
 
-## 📊 Result Visualization
+## 📊 Dashboard Features
 
-The dashboard includes:
+The interactive dashboard provides:
 
-- 📈 Line graph for Crime Trend Over Years  
-- 🏆 Bar chart for Top 10 Crime States  
-- 📊 KPI summary metrics  
-- 🔮 Real-time crime prediction module  
+- 📈 Crime Trend Over Years (Line Chart)  
+- 🏆 Top 10 Crime States (Bar Chart)  
+- 📊 KPI Summary Metrics  
+  - Total Crimes  
+  - Average Crimes  
+  - Highest Crime State  
+- 🔮 Real-Time Crime Prediction Module  
 
 ---
 
@@ -168,40 +140,91 @@ The dashboard includes:
 
 Users can:
 
-- Select State  
-- Select District  
-- Select Year  
-- Generate predicted total IPC crime count  
+1. Select State  
+2. Select District  
+3. Select Year  
+4. Generate predicted total IPC crime count  
 
-The trained Random Forest model produces real-time predictions instantly.
+The trained Random Forest model instantly produces real-time predictions.
+
+---
+
+## 🚀 How to Run Locally
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/sagargore067-commits/crime-prediction-ml.git
+```
+
+### 2️⃣ Navigate to Project Directory
+
+```bash
+cd crime-prediction-ml
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Train the Model
+
+```bash
+python main.py
+```
+
+### 5️⃣ Launch the Dashboard
+
+```bash
+python -m streamlit run app/app.py
+```
+
+---
+
+## 📂 Project Structure
+
+```
+crime-prediction-ml/
+│
+├── app/                # Streamlit dashboard
+├── src/                # Model training & preprocessing
+├── data/               # Crime dataset
+├── notebooks/          # Exploratory data analysis
+├── models/             # Trained model files
+├── README.md
+├── requirements.txt
+└── main.py
+```
 
 ---
 
 ## 📌 Conclusion
 
-The project successfully demonstrates:
+This project successfully demonstrates:
 
 - Data preprocessing and encoding  
 - Machine learning model training  
-- Model evaluation using regression metrics  
+- Model evaluation  
 - Deployment of an interactive analytics dashboard  
 
-It highlights how Machine Learning can be leveraged for crime data analysis and predictive modeling.
+It highlights how Machine Learning can be leveraged to extract insights from crime datasets and assist in predictive decision-making.
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Future Enhancements
 
 - Integrate multi-year dataset (2001–2020)  
-- Incorporate socio-economic and population features  
+- Add socio-economic and population-based features  
 - Implement advanced models such as XGBoost  
 - Add interactive India heatmap visualization  
-- Deploy the dashboard on a cloud platform  
-- Integrate real-time crime reporting systems  
+- Deploy dashboard on cloud platform  
+- Integrate real-time crime data APIs  
 
 ---
 
 ## 👨‍💻 Author
 
 **Sagar Gore**  
-AI & Machine Learning Enthusiast
+AI & Machine Learning Enthusiast  
