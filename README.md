@@ -9,18 +9,20 @@ The system processes structured state-wise and district-wise crime records to id
 
 ## 🎥 Live Project Demonstration
 
-A complete walkthrough of the AI Crime Analytics Dashboard is available below:
+A complete walkthrough of the AI Crime Analytics & Prediction System is available below:
 
 ▶ **Watch Demo Video:**  
-[Click here to watch the demo](demo-video.mp4)
+[Click here to download and watch the demo](demo-video.mp4)
 
 ### The demonstration includes:
 
-- 📊 Data visualization dashboard  
-- 📈 Crime trend analysis  
-- 🤖 Model training process  
-- 🔮 Real-time prediction workflow  
+- 📊 Interactive Streamlit dashboard  
+- 📈 Crime trend visualization  
+- 🏆 Top 10 crime states analysis  
+- 🤖 Machine learning model training  
+- 🔮 Real-time crime prediction  
 - 🏗️ System architecture explanation  
+
 
 
 ### 🔹 Key Components
