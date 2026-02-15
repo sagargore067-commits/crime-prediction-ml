@@ -6,6 +6,23 @@ This project implements a Machine Learning-based Crime Analytics and Prediction 
 The primary objective is to analyze historical Indian IPC crime data and predict total cognizable crimes based on geographical and temporal inputs.
 
 The system processes structured state-wise and district-wise crime records to identify trends and generate predictive insights. A regression-based machine learning model was trained using encoded categorical features to simulate real-world crime forecasting scenarios.
+---
+
+## 🎥 Live Project Demonstration
+
+A complete walkthrough of the AI Crime Analytics Dashboard is available below:
+
+▶ **Watch Demo Video:**  
+[Click here to watch the demo](demo-video.mp4)
+
+### The demonstration includes:
+
+- 📊 Data visualization dashboard  
+- 📈 Crime trend analysis  
+- 🤖 Model training process  
+- 🔮 Real-time prediction workflow  
+- 🏗️ System architecture explanation  
+
 
 ### 🔹 Key Components
 
